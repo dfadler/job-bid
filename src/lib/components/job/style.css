@@ -1,0 +1,41 @@
+
+.job-page {
+  margin: 0 10px;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid-column + .grid-column {
+  margin-left: 40px;
+}
+
+form > * {
+  margin-top: 10px;
+  display: block;
+}
+
+form button {
+  margin-top: 20px;
+}
+
+form label input {
+  margin-left: 5px;
+}
+
+.metric-options p {
+  margin-bottom: 0;
+}
+
+.metric-options .field-group{
+  margin-right: 10px;
+}
+
+.field-group {
+  margin-top: 10px;
+}
+
+.description {
+  margin-top: 40px;
+}

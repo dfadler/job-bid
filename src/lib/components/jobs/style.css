@@ -1,0 +1,41 @@
+
+.jobs {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  padding: 0 10px;
+}
+
+.jobs .pagination {
+  margin: 0 -10px;
+}
+
+.jobs-list {
+  flex-grow: 1;
+  margin: 0 -10px; 
+}
+
+.job-list-item, .jobs-list .loading.title {
+  padding: 10px;
+}
+
+.jobs-list .loading.title {
+  margin-top: 0;
+}
+
+.job-list-item .title {
+  margin-top: 10px;
+}
+
+.jobs-list .title a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.job-list-item :last-child {
+  margin-bottom: 0;
+}
+
+.jobs .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(even) {
+  background: #eee;
+}

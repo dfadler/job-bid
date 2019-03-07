@@ -1,0 +1,39 @@
+
+.pagination {
+  background: #ddd;
+}
+
+.pagination ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 10px;
+}
+
+.pagination li + li {
+  margin-left: 5px;
+}
+
+.pagination a {
+  display: block;
+  border: solid 1px #ccc;
+  background: #fff;
+  min-height: 25px;
+  min-width: 25px;
+  line-height: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.pagination a:hover {
+  cursor: pointer;
+}
+
+.pagination .is-current-page a:hover {
+  cursor: default;
+}
+
+.pagination .is-current-page a {
+  background: #ccc;
+  border-color: #ddd;
+}
